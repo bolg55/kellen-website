@@ -93,16 +93,17 @@ export const projects: IProject[] = [
   },
   {
     id: 3,
-    name: 'Waves Music App',
+    name: 'NHL Stats Scraper',
     description:
-      'This music app was built using React and SaSS. It is responsive, features a slide-out library menu, and functions like any typical music app would. It can play/ pause, track through the song, skip forward and back. Next iterations would be including a shuffle/ loop option and possibly a volume control. ',
+      'This is a web scraper that I built to scrape NHL stats for teams, players and goalies. The scraper adds the stats to a mySQL database that I built, and is then accessed by my NHL model. ',
     image_path:
-      'https://res.cloudinary.com/dxghtqpao/image/upload/v1626757267/medium_Screenshot_2021_07_14_020202_d0d2a03081.png',
-    deployed_url: 'https://bolg55-music-player.netlify.app/',
-    github_url: 'https://github.com/bolg55/music-app',
-    category: ['react'],
-    key_tech: ['JavaScript', 'React', 'SaSS', 'Netlify'],
+      'https://res.cloudinary.com/dxghtqpao/image/upload/v1641323426/NHLScraper_j2clsk.png',
+    deployed_url: 'https://actionbackers.com/',
+    github_url: 'https://github.com/bolg55/NHL-database-update',
+    category: ['python'],
+    key_tech: ['Python', 'SQL', 'Web Scraping', 'Pandas'],
   },
+
   {
     id: 4,
     name: 'Action Backers',
@@ -140,14 +141,14 @@ export const projects: IProject[] = [
   },
   {
     id: 7,
-    name: 'NHL Stats Scraper',
+    name: 'Waves Music App',
     description:
-      'This is a web scraper that I built to scrape NHL stats for teams, players and goalies. The scraper adds the stats to a mySQL database that I built, and is then accessed by my NHL model. ',
+      'This music app was built using React and SaSS. It is responsive, features a slide-out library menu, and functions like any typical music app would. It can play/ pause, track through the song, skip forward and back. Next iterations would be including a shuffle/ loop option and possibly a volume control. ',
     image_path:
-      'https://res.cloudinary.com/dxghtqpao/image/upload/v1626757466/medium_Screenshot_2021_07_14_021251_648c8151bc.png',
-    deployed_url: 'https://actionbackers.com/',
-    github_url: 'https://github.com/bolg55/NHL-database-update',
-    category: ['python'],
-    key_tech: ['Python', 'SQL', 'Web scraping', 'pandas'],
+      'https://res.cloudinary.com/dxghtqpao/image/upload/v1626757267/medium_Screenshot_2021_07_14_020202_d0d2a03081.png',
+    deployed_url: 'https://bolg55-music-player.netlify.app/',
+    github_url: 'https://github.com/bolg55/music-app',
+    category: ['react'],
+    key_tech: ['JavaScript', 'React', 'SaSS', 'Netlify'],
   },
 ]
