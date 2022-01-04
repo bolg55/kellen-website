@@ -138,4 +138,16 @@ export const projects: IProject[] = [
     category: ['react'],
     key_tech: ['Next.js', 'Tailwind', 'Framer Motion', 'TypeScript'],
   },
+  {
+    id: 7,
+    name: 'NHL Stats Scraper',
+    description:
+      'This is a web scraper that I built to scrape NHL stats for teams, players and goalies. The scraper adds the stats to a mySQL database that I built, and is then accessed by my NHL model. ',
+    image_path:
+      'https://res.cloudinary.com/dxghtqpao/image/upload/v1626757466/medium_Screenshot_2021_07_14_021251_648c8151bc.png',
+    deployed_url: 'https://actionbackers.com/',
+    github_url: 'https://github.com/bolg55/NHL-database-update',
+    category: ['python'],
+    key_tech: ['Python', 'SQL', 'Web scraping', 'pandas'],
+  },
 ]
