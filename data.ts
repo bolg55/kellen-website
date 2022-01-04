@@ -12,14 +12,14 @@ export const services: IService[] = [
     Icon: RiComputerLine,
     title: 'Frontend Development',
     about:
-      'I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ',
+      'I can build a beautiful and scalable SPA using <b> HTML</b>, <b>CSS</b> and <b>React.js</b> ',
   },
   {
     id: 2,
     Icon: FaServer,
     title: 'Backend  Development',
     about:
-      'handle database, server, api using <b>Express </b>, <b>Strapi</b> & other popular frameworks',
+      'handle database, server, api using <b>Express</b>, <b>Strapi</b> & other popular frameworks',
   },
   {
     id: 3,
