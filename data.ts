@@ -69,6 +69,18 @@ export const tools: ISkill[] = [
 export const projects: IProject[] = [
   {
     id: 1,
+    name: 'Spotify Clone',
+    description:
+      'This Spotify clone uses the Spotify API to connect to existing account. Fully functional- plays songs, brings in playlists, controls the Spotify desktop or phone app. Persists loggedin state and authenticates user using nextauth. ',
+    image_path:
+      'https://res.cloudinary.com/dxghtqpao/image/upload/v1641504455/SpotifyClone2_v7wd2q.png',
+    deployed_url: 'https://spotify-clone-bolg55.vercel.app/',
+    github_url: 'https://github.com/bolg55/spotify-clone',
+    category: ['react'],
+    key_tech: ['React', 'Tailwind', 'Nextauth', 'Recoil', 'REST API'],
+  },
+  {
+    id: 2,
     name: 'Netflix Clone',
     description:
       'This is a clone of Netflix. You can view movie trailers, search by category etc. Uses the TMDb API. ',
@@ -80,7 +92,7 @@ export const projects: IProject[] = [
     key_tech: ['React', 'Tailwind', 'REST API'],
   },
   {
-    id: 2,
+    id: 3,
     name: 'NHL Machine Learning Model',
     description:
       'This is a Machine Learning model that I built in Python, that predicts the winner of NHL games. It currently has a 58% win rate! The model uses Logistic regression and a lot of stats that I have scraped into my own SQL database dating back to 2009. ',
@@ -92,7 +104,7 @@ export const projects: IProject[] = [
     key_tech: ['Python', 'SQL'],
   },
   {
-    id: 3,
+    id: 4,
     name: 'NHL Stats Scraper',
     description:
       'This is a web scraper that I built to scrape NHL stats for teams, players and goalies. The scraper adds the stats to a mySQL database that I built, and is then accessed by my NHL model. ',
@@ -105,7 +117,7 @@ export const projects: IProject[] = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: 'Action Backers',
     description: `An online business I built from the ground up. This site is currently built with WordPress I wanted to get an MVP up and running quickly, with functionality that I ${"wasn't"} able to build at the time, such as paywalled content, Stripe integration, and different user levels. I am rebuilding this site from the ground up using Next.js `,
     image_path:
@@ -116,7 +128,7 @@ export const projects: IProject[] = [
     key_tech: ['Wordpress', 'Python'],
   },
   {
-    id: 5,
+    id: 6,
     name: 'Dad Joke Generator',
     description:
       'This is a quick app that I build for fun to generate random dad jokes. I wanted to work with Axios a bit and icanhazdadjoke.com has a simple API to work with. The app is simple- it will generate a "dad joke" on load and subsequently when pressing the "new joke" button, without re-rendering the page. ',
@@ -128,7 +140,7 @@ export const projects: IProject[] = [
     key_tech: ['Next.js', 'REST API'],
   },
   {
-    id: 6,
+    id: 7,
     name: 'Kellenbolger.ca',
     description:
       "Web-ception! I built this site using all of the technologies I love working with most. I wanted to have a fast, responsive website with great functionality and the ability to easily add or change things without having to spend days doing so. It's also my first project using TypeScript.",
@@ -140,7 +152,7 @@ export const projects: IProject[] = [
     key_tech: ['Next.js', 'Tailwind', 'Framer Motion', 'TypeScript'],
   },
   {
-    id: 7,
+    id: 8,
     name: 'Waves Music App',
     description:
       'This music app was built using React and SaSS. It is responsive, features a slide-out library menu, and functions like any typical music app would. It can play/ pause, track through the song, skip forward and back. Next iterations would be including a shuffle/ loop option and possibly a volume control. ',
