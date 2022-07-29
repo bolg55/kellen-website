@@ -34,7 +34,7 @@ const Sidebar = () => {
       </p>
       <a
         className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'
-        href='/assets/Kellen Bolger Resume_2021.pdf'
+        href='/assets/Kellen_Bolger_Resume.pdf'
         download='Kellen Bolger Resume.pdf'>
         <AiOutlineDownload className='w-6 h-6' />
         Download Resume

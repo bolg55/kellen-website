@@ -19,7 +19,7 @@ export const services: IService[] = [
     Icon: FaServer,
     title: 'Backend  Development',
     about:
-      'handle database, server, api using <b>Express</b>, <b>Strapi</b> & other popular frameworks',
+      'handle database, server, api using <b>Next.js</b>,<b>Prisma</b> ,<b>Strapi</b> & other popular frameworks',
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ export const services: IService[] = [
   {
     id: 5,
     Icon: AiOutlineAntDesign,
-    title: 'UI/UX Designer',
+    title: 'UI/UX Design',
     about:
       'stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ',
   },
@@ -52,21 +52,40 @@ export const services: IService[] = [
 
 export const languages: ISkill[] = [
   { id: 1, Icon: BsCircleFill, name: 'Python', level: '45%' },
-  { id: 2, Icon: BsCircleFill, name: 'JavaScript', level: '70%' },
+  { id: 2, Icon: BsCircleFill, name: 'TypeScript', level: '70%' },
   { id: 4, Icon: BsCircleFill, name: 'React', level: '75%' },
   { id: 5, Icon: BsCircleFill, name: 'Next.js', level: '80%' },
   { id: 6, Icon: BsCircleFill, name: 'Tailwind', level: '60%' },
-  { id: 7, Icon: BsCircleFill, name: 'SQL', level: '65%' },
+  { id: 7, Icon: BsCircleFill, name: 'Prisma', level: '65%' },
 ]
 
 export const tools: ISkill[] = [
-  { id: 1, Icon: BsCircleFill, name: 'Figma', level: '85%' },
+  { id: 1, Icon: BsCircleFill, name: 'Figma', level: '35%' },
   { id: 2, Icon: BsCircleFill, name: 'Photoshop', level: '45%' },
   { id: 3, Icon: BsCircleFill, name: 'Illustrator', level: '60%' },
   { id: 4, Icon: BsCircleFill, name: 'Framer', level: '45%' },
 ]
 
 export const projects: IProject[] = [
+  {
+    id: 0,
+    name: 'SaaS Boilerplate',
+    description:
+      'This SaaS boilerplate is a simple and clean SaaS starter solution. Built with TypeScript using Next.js, NextAuth.js, Tailwindcss, Prisma and Stripe',
+    image_path:
+      'https://res.cloudinary.com/dxghtqpao/image/upload/v1659066394/A_Modern_SaaS_Boilerplate_wtiao3.png',
+    deployed_url: 'https://github.com/bolg55/SaaS-Starter',
+    github_url: 'https://github.com/bolg55/SaaS-Starter',
+    category: ['react'],
+    key_tech: [
+      'React',
+      'TypeScript',
+      'Tailwind',
+      'Nextauth',
+      'Stripe',
+      'Prisma',
+    ],
+  },
   {
     id: 1,
     name: 'Spotify Clone',
@@ -93,7 +112,7 @@ export const projects: IProject[] = [
   },
   {
     id: 3,
-    name: 'NHL Machine Learning Model',
+    name: 'NHL ML Model',
     description:
       'This is a Machine Learning model that I built in Python, that predicts the winner of NHL games. It currently has a 58% win rate! The model uses Logistic regression and a lot of stats that I have scraped into my own SQL database dating back to 2009. ',
     image_path:

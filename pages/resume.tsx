@@ -26,25 +26,26 @@ const resume = () => {
           className='my-3 text-2xl font-bold'>
           Experience
         </motion.h5>
+
         <motion.div
           variants={stagger}
           initial='initial'
           animate='animate'
           className='grid gap-6 md:grid-cols-2'>
           <motion.div variants={fadeInUp}>
-            <h5 className='my-2 text-xl font-bold'>Founder</h5>
-            <p className='font-semibold'>Action Backers</p>
+            <h5 className='my-2 text-xl font-bold'>Solutions Engineer</h5>
+            <p className='font-semibold'>Strapi</p>
             <p className='my-3'>
-              An online education platform focused on building Machine Learning
-              models which can be applied to betting on sports.
+              Strapi is the leading open-source headless CMS. Fully customizable
+              and developer-first.
             </p>
           </motion.div>
           <motion.div variants={fadeInUp}>
-            <h5 className='my-2 text-xl font-bold'>Software Engineer</h5>
+            <h5 className='my-2 text-xl font-bold'>Web Developer</h5>
             <p className='font-semibold'>Freelance</p>
             <p className='my-3'>
-              I&apos;ve been doing freelance software engineering for a few
-              years now, with a focus on web development.
+              I&apos;ve been doing freelance web development for a few years
+              now, with a focus on web development.
             </p>
           </motion.div>
         </motion.div>
