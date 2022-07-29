@@ -19,7 +19,7 @@ export const services: IService[] = [
     Icon: FaServer,
     title: 'Backend  Development',
     about:
-      'handle database, server, api using <b>Next.js</b>,<b>Prisma</b> ,<b>Strapi</b> & other popular frameworks',
+      'handle database, server, api using <b>Next.js</b>, <b>Prisma</b>, <b>Strapi</b> & other popular frameworks',
   },
   {
     id: 3,
